@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Score Board</title>
+    <link rel="stylesheet" href="score-board.css">
+  </head>
+  <body>
+
+
+    <div class="left">
+      Left
+      <div id="left-score">0</div>
+      <div>
+        <button onclick="addLeft(); checkWinner()">+1</button>
+        <button onclick="subtractLeft()">-1</button>
+      </div>
+    </div>
+
+    <div class="right">
+      Right
+      <div id="right-score">0</div>
+      <div>
+        <button onclick="addRight();checkWinner()">+1</button>
+        <button onclick="subtractRight()">-1</button>
+      </div>
+    </div>
+
+
+
+
+    <div style="position:absolute; bottom:20px; left:50%; transform:translateX(-50%);">
+      <button onclick="resetScores()">Reset</button>
+    </div>
+
+    <script src="score-board.js"></script>
+  </body>
+</html>
