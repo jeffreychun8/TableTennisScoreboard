@@ -11,8 +11,101 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
+  font-weight:bold;
+
 }
 
-.left { background-color: lightblue; }
-.right { background-color: lightgreen; }
+left-clicked, .right-clicked {
+  background-color: yellow;
+}
 
+
+
+
+
+
+
+
+.left { background-color: lightblue; }
+.right { background-color: lightcoral; }
+
+.rounds{
+  font-size:40px;
+
+  
+
+}
+
+.score-size{
+  font-size:100px;
+}
+
+
+.roundsWon{
+  font-size:30px;
+  padding-bottom:20px;
+  font-weight:bold;
+  background-color:white;
+  height:105px;
+  padding-top:10px;
+  width:160px;
+  text-align:center;
+  border-radius:20px;
+  border-color:black;
+  border-style:solid;
+} 
+
+.addButton{
+  font-size:20px;
+  font-weight:bold;
+  border-radius:10px;
+  padding:10px;
+  background-color:rgb(33, 241, 33);
+  border-color:black;
+  border-style:solid;
+  width:50px;
+  height: 50px;
+}
+
+.addButton:active{
+  background-color:rgb(26, 182, 26);
+}
+
+.subtractButton{
+  font-size:20px;
+  font-weight:bold;
+  border-radius:10px;
+  padding:10px;
+  background-color:rgb(255, 99, 71);
+  border-color:black;
+  border-style:solid;
+  width:50px;
+  height: 50px;
+}
+
+.subtractButton:active{
+  background-color:rgb(150, 41, 22);
+}
+
+.marquee {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: white;
+  padding: 10px;
+  width: 80%;
+  border:black solid 2px;
+  width: 400px;
+  text-align: center;
+}
+
+.resetButton{
+  font-size:20px;
+  font-weight:bold;
+  border-radius:10px;
+  padding:10px;
+  background-color:rgb(227, 195, 17);
+  border-color:black;
+  border-style:solid;
+  width:80px;
+  height: 50px;
+}
